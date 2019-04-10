@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sectionA" type="xs:string" minOccurs="1" maxOccurs="1" />
+				<xs:element name="sectionB" type="xs:string" minOccurs="2" maxOccurs="2" />
+				<xs:element name="sectionC" type="xs:string" minOccurs="3" maxOccurs="3" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
